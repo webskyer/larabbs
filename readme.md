@@ -63,3 +63,16 @@ Shell
 yarn config set registry https://registry.npm.taobao.org
 yarn install
 npm run watch-poll
+
+## Run Queue
+
+.env
+QUEUE_DRIVER=redis
+
+Shell
+php artisan horizon
+
+## Config to Sync
+
+.env
+QUEUE_DRIVER=sync
