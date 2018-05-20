@@ -56,3 +56,10 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Run Laravel Mix
+
+Shell
+yarn config set registry https://registry.npm.taobao.org
+yarn install
+npm run watch-poll
